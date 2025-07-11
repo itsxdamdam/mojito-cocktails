@@ -34,7 +34,7 @@ const Menu = () => {
       .timeline({
         scrollTrigger: {
           trigger: "#menu",
-          start: "top bottom",
+          start: "top center",
           end: "bottom top",
           scrub: true,
         },
