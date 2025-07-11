@@ -7,8 +7,11 @@ import About from "./components/About";
 import Art from "./components/Art";
 import Menu from "./components/Menu";
 import Contact from "./components/Contact";
+// import { lazy } from "react";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
+
+// const LazyHero = lazy(() => import())
 
 const App = () => {
   return (
