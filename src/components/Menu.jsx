@@ -114,10 +114,10 @@ const Menu = () => {
             />
           </button>
           <button
-            className="text-right"
+            className="text-left"
             onClick={() => goToSlide(currentIndex + 1)}
           >
-            <span>{nextCocktail.name}</span>{" "}
+            <span>{nextCocktail.name}</span>
             <img
               src="/images/left-arrow.png"
               alt="left-arrow"
